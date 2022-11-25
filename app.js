@@ -41,4 +41,5 @@ convertBtn.addEventListener("click", () => {
   massEl.textContent = `${inputNum} kilos = ${kilogramToP.toFixed(
     3
   )} pounds | ${inputNum} pounds = ${poundToK.toFixed(3)} kilos`
+  inputNum.valueOf = ""
 })
