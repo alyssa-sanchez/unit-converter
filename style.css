@@ -33,7 +33,8 @@ body {
   font-weight: bold;
 }
 
-#btn-convert {
+#btn-convert,
+#btn-reset {
   background-color: whitesmoke;
   border: none;
   border-radius: 5px;
@@ -44,6 +45,10 @@ body {
 }
 
 #btn-convert:hover {
+  background-color: violet;
+}
+
+#btn-reset:hover {
   background-color: violet;
 }
 /* bottom */
@@ -62,6 +67,8 @@ body {
 
 .unit-number {
   font-size: 14px;
+  font-weight: bold;
+  color: violet;
 }
 
 .unit {
