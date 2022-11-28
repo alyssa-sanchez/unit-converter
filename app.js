@@ -16,17 +16,17 @@ convertBtn.addEventListener("click", () => {
     // LENGTH
     lengthEl.textContent += `${unit} meters = ${(unit * meter).toFixed(
       3
-    )} feet | ${unit} feet = ${unitToM} meters`
+    )} feet | ${unit} feet = ${unitToM} meters `
 
     // VOLUME
     volumeEl.textContent += `${unit} liters = ${(unit * liter).toFixed(
       3
-    )} gallons | ${unit} gallons = ${unitToLiter} liters`
+    )} gallons | ${unit} gallons = ${unitToLiter} liters `
 
     // MASS
     massEl.textContent += `${unit} kilos = ${(unit * kg).toFixed(
       3
-    )} pounds | ${unit} pounds = ${unitToKilos} kilos`
+    )} pounds | ${unit} pounds = ${unitToKilos} kilos `
   }
   inputNumber.value = "" // to clear the input
 })
